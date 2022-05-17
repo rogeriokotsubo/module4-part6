@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/poppins-regular-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/poppins-bold-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url(../fonts/poppins-extrabold-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 900;
+} 
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/poppins-italic-webfont.woff) format('woff');
+  font-style: italic;
+  font-weight: 400;
+} 
+
+* {
+  padding: 0;
+  margin: 0;
+}
+#menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 47px;
+  min-width: 700px;
+  align-items: center;
+  font-size: 16px;
+}
+.a-menu {
+  text-decoration: none;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  transition: background .3s;
+}
+.a-menu:hover {
+  background-color: #006050;
+}
+/* - ESTILO PARA O RODAPÉ - */
+#footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  position: static;
+  bottom: 0;
+  margin-top: 10px;
+  height: 50px;
+}
+#footer p {
+  text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+#exercicio1 {
+  flex: 1;
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 10vw;
+}
+.square{
+  list-style: square;
+}
+.disc{
+  list-style: disc;
+}
+.circle{
+  list-style: circle;
+}
+.none{
+  list-style: none;
+}
+#exercicio2 {
+  flex: 1;
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 10vw;
+}
+
+.estilizacao1:link {
+  color: lime;
+}
+.estilizacao1:visited {
+  color: red;
+}
+.estilizacao1:hover {
+  color: blue;
+}
+.estilizacao2:link {
+  color: red;
+}
+.estilizacao2:visited {
+  color: purple;
+}
+.estilizacao2:focus {
+  color: blue;
+}
+.estilizacao2:hover {
+  color: green;
+}
+.estilizacao3:visited {
+  color: rebeccapurple;
+}
+.estilizacao3:active {
+  color: green;
+}
+.estilizacao3:hover {
+  color: lime;
+}
+#exercicio3 {
+  flex: 1;
+  font-size: 1.5rem;
+  margin-left: 10vw;
+  font-family: 'Poppins';
+}
+.regular {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700;
+}
+.extrabold {
+  font-weight: 900;
+}
+.italico {
+  font-style: italic;
+}
+#exercicio4 {
+  flex: 1;
+  font-size: 1.5rem;
+  margin-left: 10vw;
+  font-family: 'Macondo', cursive;
+}
